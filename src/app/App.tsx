@@ -18,7 +18,7 @@ export default function App() {
         {/* Overlay with gradient to next section */}
         <div className='absolute inset-0 bg-gradient-to-b from-[#0d3b2e]/100 via-[#0d3b2e]/40 to-[#0d3b2e]/100' />
 
-        <div className='relative z-10 text-center text-white px-4 max-w-4xl mt-32'>
+        <div className='relative z-10 text-center text-white px-4 max-w-4xl mt-56'>
           {/* <ChefHat className='w-20 h-20 mx-auto mb-6' /> */}
           <h1 className='text-6xl md:text-7xl mb-6 font-[Aguafina_Script]'>
             Il lusso di essere ospiti a casa propria
