@@ -18,9 +18,9 @@ export function BurgerMenu() {
     }, [isOpen]);
 
     const menuItems = [
+        { label: "Chi sono", href: "#info" },
         { label: "Esperienze", href: "#proposals" },
         { label: "Menu", href: "#menu" },
-        { label: "Chi sono", href: "#info" },
         { label: "Contatti", href: "#contact" },
     ];
 
