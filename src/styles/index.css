@@ -2,6 +2,10 @@
 @import './tailwind.css';
 @import './theme.css';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -10,7 +14,8 @@ p {
     font-family: 'Neuton', serif;
     font-style: italic;
     font-weight: lighter;
-
+    font-size: 1.25rem;
+    color: #e5e7eb;
 }
 
 
@@ -18,4 +23,22 @@ h1,
 h2,
 h3 {
     font-weight: bolder;
+    color: #e5e7eb
+}
+
+
+h2 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p {
+    font-size: large;
+}
+
+span {
+    font-size: normal;
 }
