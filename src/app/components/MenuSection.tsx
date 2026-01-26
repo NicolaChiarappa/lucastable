@@ -43,6 +43,13 @@ export function MenuSection() {
                             )}
                         </button>
                     ))}
+                    <a
+                        href="#contact"
+                        className='text-xl md:text-2xl pb-2 transition-all duration-300 relative text-gray-400 hover:text-gray-200'
+                    >
+                        Personalizza
+                    </a>
+
                 </div>
 
                 {/* Menu Content */}

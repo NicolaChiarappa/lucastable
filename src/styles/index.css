@@ -18,14 +18,18 @@ p {
     color: #e5e7eb;
 }
 
-
 h1,
 h2,
 h3 {
+
     font-weight: bolder;
     color: #e5e7eb
 }
 
+h1 {
+    font-family: 'Allison', serif;
+    font-size: xxx-large;
+}
 
 h2 {
     font-size: xx-large;

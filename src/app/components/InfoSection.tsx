@@ -13,8 +13,8 @@ export function InfoSection() {
                         Oggi porto quell'eccellenza direttamente nella tua sala da pranzo. Non cucino solo piatti, ma creo un'esperienza su misura per te e i tuoi ospiti, curando ogni dettaglio: dalla selezione degli ingredienti alla presentazione finale, fino al riordino della cucina.
                     </p>
 
-                    <blockquote className='text-white text-2xl md:text-6xl font-[Aguafina_Script] leading-tight mt-12'>
-                        "La cucina è un atto d’amore e precisione. Il mio obiettivo? Farti viaggiare attraverso il palato restando comodamente seduto al tuo tavolo."
+                    <blockquote className='text-white text-4xl md:text-6xl font-[allison] leading-tight mt-12'>
+                        "La cucina è un atto d’amore e precisione. <br /> Il mio obiettivo? <br /> Farti viaggiare attraverso il palato restando comodamente seduto al tuo tavolo."
                     </blockquote>
 
                 </div>

@@ -15,7 +15,7 @@ export function HeroSection() {
 
         <div className='relative z-10 text-center text-white px-8 py-12 max-w-4xl mt-36'>
             {/* <ChefHat className='w-20 h-20 mx-auto mb-6' /> */}
-            <h1 className='text-5xl md:text-7xl mb-6 font-[Aguafina_Script]'>
+            <h1 className='text-5xl md:text-7xl mb-6 '>
                 Il lusso di essere ospiti a casa propria
             </h1>
             <p className='md:text-2xl mb-8'>

@@ -19,7 +19,7 @@ export function BurgerMenu() {
 
     const menuItems = [
         { label: "Chi sono", href: "#info" },
-        { label: "Esperienze", href: "#proposals" },
+        { label: "Proposte", href: "#proposals" },
         { label: "Menu", href: "#menu" },
         { label: "Contatti", href: "#contact" },
     ];
@@ -65,7 +65,7 @@ export function BurgerMenu() {
                                     initial={{ y: 20, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     transition={{ delay: index * 0.1, duration: 0.4 }}
-                                    className="text-4xl md:text-5xl text-white font-[Neuton] hover:text-[#c5a059] transition-colors"
+                                    className="text-3xl md:text-5xl text-white font-bold hover:text-[#c5a059] transition-colors"
                                 >
                                     {item.label}
                                 </motion.a>
