@@ -19,7 +19,7 @@ export function ProposalsSection() {
                     <h2 className='text-5xl mb-6'>Esperienze proposte</h2>
                     <h3 className='text-3xl mb-2'>Il sesto senso</h3>
                     <span className="block font-semibold italic text-gray-300 mb-6 tracking-wide">
-                        Numero ospiti consigliato: 7-8
+                        Numero ospiti consigliato: 2-8
                     </span>
 
                     <p className='text-2xl mb-6 text-gray-200'>

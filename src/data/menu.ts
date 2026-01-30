@@ -6,6 +6,7 @@ export interface MenuItem {
 export interface MenuCategory {
     id: string;
     title: string;
+    price: number;
     items: MenuItem[];
 }
 
@@ -13,6 +14,7 @@ export const menus: MenuCategory[] = [
     {
         id: 'meat',
         title: 'La Carne',
+        price: 150,
         items: [
             { course: 'Amouse bouche', dish: 'Tartare di vitello, spuma di midollo mela acida' },
             { course: 'Antipasto', dish: 'Carpaccio di filetto di manzo, servito con demi glace tiepida e maionese all’acqua di pomodoro' },
@@ -25,6 +27,7 @@ export const menus: MenuCategory[] = [
     {
         id: 'fish',
         title: 'Il Mare',
+        price: 190,
         items: [
             { course: 'Amouse bouche', dish: 'Crocchetta di gambero con cuore di spuma di Bisque e gel al limone / Mini ban, aragosta, mayo all’ananas' },
             { course: 'Antipasto', dish: 'Ricciola scottata con salsa umami e panko tostato' },
@@ -37,6 +40,7 @@ export const menus: MenuCategory[] = [
     {
         id: 'vegetarian',
         title: 'Vegetariano',
+        price: 100,
         items: [
             { course: 'Amouse bouche', dish: 'Mini “Scorpella” San Severese con ripieno di crema al caciocavallo, ananas grigliato agrodolce e polvere di anice' },
             { course: 'Antipasto', dish: 'Porro fondente, Crema al cavolfiore tostato, coulis e polvere di lamponi e olio all’erba cipollina' },

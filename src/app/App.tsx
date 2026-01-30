@@ -7,6 +7,8 @@ import { BurgerMenu } from "./components/BurgerMenu";
 
 import { Logo } from "./components/Logo";
 
+import { ReviewsSection } from "./components/ReviewsSection";
+
 export default function App() {
   return (
     <div className='min-h-screen bg-[#0d3b2e] relative'>
@@ -18,6 +20,7 @@ export default function App() {
       <InfoSection />
       <ProposalsSection />
       <MenuSection />
+      <ReviewsSection />
       <ContactSection />
     </div>
   );
