@@ -1,5 +1,5 @@
 import { ChefHat, Utensils, Calendar, Star } from "lucide-react";
-import proposteImage from "../../assets/proposte.png";
+import proposteImage from "../../assets/proposte.webp";
 import { FeatureCard } from "./FeatureCard";
 
 export function ProposalsSection() {

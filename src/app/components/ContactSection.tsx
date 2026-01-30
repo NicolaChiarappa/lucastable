@@ -1,5 +1,5 @@
 import { Mail, Phone, MessageCircle } from "lucide-react";
-import plateImage from "../../assets/plate.jpeg";
+import plateImage from "../../assets/plate.webp";
 
 export function ContactSection() {
     return (

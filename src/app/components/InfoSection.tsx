@@ -1,8 +1,20 @@
+import lucaFace from "../../assets/luca_face.webp";
+
 export function InfoSection() {
     return (
-        <section className='relative py-24 bg-[#0d3b2e] overflow-hidden' id="info">
-            <div className='relative z-10 max-w-4xl mx-auto px-4 text-center'>
-                <h2 className='text-white mb-12'>Chi sono</h2>
+        <section className='relative py-24 bg-[#0d3b2e] overflow-hidden max-h-[60vh] my-16' id="info">
+            {/* Background Image */}
+            <div
+                className='absolute inset-0 bg-cover bg-center'
+                style={{
+                    backgroundImage: `url('${lucaFace}')`,
+                }}
+            />
+            {/* Overlay */}
+            <div className='absolute inset-0 bg-gradient-to-b from-[#0d3b2e]/100 via-[#0d3b2e]/30 to-[#0d3b2e]/100' />
+
+            <div className='relative z-10 max-w-4xl mx-auto px-4 text-center space-y-12'>
+                <h2 className='text-white '>Chi sono</h2>
 
                 <div className='space-y-8 text-gray-200'>
                     <p className='md:text-sm leading-relaxed'>

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { menus } from '../../data/menu';
 import { motion, AnimatePresence } from 'framer-motion';
-import proposteImage from "../../assets/menu_image.jpeg";
+import proposteImage from "../../assets/menu_image.webp";
 
 export function MenuSection() {
     const [activeTab, setActiveTab] = useState(menus[0].id);
