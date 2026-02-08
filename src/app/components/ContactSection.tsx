@@ -22,13 +22,13 @@ export function ContactSection() {
 
                 <div className="max-w-sm mx-auto bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 aspect-square flex flex-col items-center justify-center gap-6 shadow-2xl">
                     <a
-                        href="mailto:info@lucastabel.com"
+                        href="mailto:lucastablee@gmail.com"
                         className="flex items-center gap-4 text-white hover:text-yellow-200 transition-colors w-full p-3 rounded-lg hover:bg-white/5"
                     >
                         <div className="p-3 bg-white/10 rounded-full">
                             <Mail className="w-6 h-6" />
                         </div>
-                        <span className="text-lg">info@lucastabel.com</span>
+                        <span className="text-lg">lucastablee@gmail.com</span>
                     </a>
 
                     <a

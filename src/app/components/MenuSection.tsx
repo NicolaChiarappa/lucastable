@@ -76,7 +76,7 @@ export function MenuSection() {
                             ))}
                             <div className='text-center mb-8 mt-12'>
                                 <p className='text-2xl text-white/90 font-serif italic'>
-                                    Prezzo p.p. €{activeMenu?.price} *bevande escluse
+                                    Prezzo p.p. CHF {activeMenu?.price} *bevande escluse
                                 </p>
                             </div>
                         </motion.div>

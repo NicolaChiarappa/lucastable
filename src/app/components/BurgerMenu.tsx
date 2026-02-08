@@ -21,6 +21,7 @@ export function BurgerMenu() {
         { label: "Chi sono", href: "#info" },
         { label: "Proposte", href: "#proposals" },
         { label: "Menu", href: "#menu" },
+        { label: "Recensioni", href: "#info" },
         { label: "Contatti", href: "#contact" },
     ];
 
@@ -53,7 +54,7 @@ export function BurgerMenu() {
                         transition={{ duration: 0.3 }}
                         className="fixed inset-0 z-40 bg-[#0d3b2e]/98 backdrop-blur-sm flex items-center justify-center"
                     >
-                        <nav className="flex flex-col items-center gap-8">
+                        <nav className="flex flex-col items-center gap-8 mt-16">
                             {menuItems.map((item, index) => (
                                 <motion.a
                                     key={item.label}

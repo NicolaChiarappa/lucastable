@@ -21,7 +21,7 @@ export const menus: MenuCategory[] = [
             { course: 'Primo', dish: 'Tagliatella con stracotto di agnello, lime e polvere di ginepro' },
             { course: 'Secondo', dish: 'Guancette di maiale brasate, purea di patate alla francese e cipolla rossa agrodolce' },
             { course: 'Pre dessert', dish: 'Panna cotta ai piselli e coulis di fragole' },
-            { course: 'Dessert', dish: 'Cremoso al popcorn, cioccolato bianco e orzo tostato' }
+            { course: 'Dessert', dish: 'Cioccolato bianco, caramello salato e orzo tostato' }
         ]
     },
     {
@@ -29,8 +29,8 @@ export const menus: MenuCategory[] = [
         title: 'Il Mare',
         price: 190,
         items: [
-            { course: 'Amouse bouche', dish: 'Crocchetta di gambero con cuore di spuma di Bisque e gel al limone / Mini ban, aragosta, mayo all’ananas' },
-            { course: 'Antipasto', dish: 'Ricciola scottata con salsa umami e panko tostato' },
+            { course: 'Amouse bouche', dish: 'Crocchetta di gambero con cuore di cremoso di bisque e gel al limone' },
+            { course: 'Antipasto', dish: 'Aragosta con emulsione di dragoncello e beurre blanc di cozze' },
             { course: 'Primo', dish: 'Orecchiette artigianali con ragù di polpo e emulsione al sedano rapa' },
             { course: 'Secondo', dish: 'Ventresca di tonno al burro nocciola, crema allo zafferano e rafano, salsa pil pil e porro fondente' },
             { course: 'Pre dessert', dish: 'Sorbetto alla mela verde e il suo estratto e brunoise di sedano' },

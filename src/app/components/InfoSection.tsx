@@ -1,23 +1,33 @@
-import lucaFace from "../../assets/luca_face.webp";
+import lucaFace from "../../assets/Subject_1.png";
+import lucaFace2 from "../../assets/luca_face_2.webp";
 
 export function InfoSection() {
     return (
-        <section className='relative py-24 bg-[#0d3b2e] overflow-hidden max-h-[60vh] my-16' id="info">
-            {/* Background Image */}
+        <section className='relative py-12 bg-[#0d3b2e] overflow-hidden  my-16' id="info">
+
+
             <div
-                className='absolute inset-0 bg-cover bg-center'
+                className='absolute inset-0 bg-cover bg-center max-md:hidden'
                 style={{
-                    backgroundImage: `url('${lucaFace}')`,
+                    backgroundImage: `url('${lucaFace2}')`,
                 }}
             />
+
+
             {/* Overlay */}
-            <div className='absolute inset-0 bg-gradient-to-b from-[#0d3b2e]/100 via-[#0d3b2e]/30 to-[#0d3b2e]/100' />
+            <div className='absolute inset-0 bg-gradient-to-b from-[#0d3b2e]/100 via-[#0d3b2e]/30 to-[#0d3b2e]/100 max-md:hidden' />
 
             <div className='relative z-10 max-w-4xl mx-auto px-4 text-center space-y-12'>
-                <h2 className='text-white '>Chi sono</h2>
+                <h2 className='text-white relative z-10'>Chi sono</h2>
 
-                <div className='space-y-8 text-gray-200'>
-                    <p className='md:text-sm leading-relaxed'>
+                <div className="volto-background bg-cover">
+                    <img src={lucaFace} alt="Luca" className="md:hidden" />
+
+                    <div className='absolute inset-0 bg-gradient-to-b from-[#0d3b2e]/100 via-[#0d3b2e]/60 to-[#0d3b2e]/100 md:hidden' />
+                </div>
+
+                <div className='relative space-y-8 text-gray-200 z-10'>
+                    <p className='md:text-sm leading-relaxed text-justify'>
                         Mi chiamo Luca, ho 23 anni e la mia passione per la cucina è nata tra i profumi della casa di mia madre, in Puglia. Quell'amore per i sapori autentici mi ha spinto a lasciare le mie radici per studiare in Svizzera, dove ho perfezionato la tecnica e maturato esperienze fondamentali in prestigiosi ristoranti stellati.
                     </p>
 
@@ -25,7 +35,7 @@ export function InfoSection() {
                         Oggi porto quell'eccellenza direttamente nella tua sala da pranzo. Non cucino solo piatti, ma creo un'esperienza su misura per te e i tuoi ospiti, curando ogni dettaglio: dalla selezione degli ingredienti alla presentazione finale, fino al riordino della cucina.
                     </p>
 
-                    <blockquote className='text-white text-4xl md:text-6xl font-[allison] leading-tight mt-12'>
+                    <blockquote className='text-white text-4xl md:text-6xl font-[allison] leading-tight clear-both'>
                         "La cucina è un atto d’amore e precisione. <br /> Il mio obiettivo? <br /> Farti viaggiare attraverso il palato restando comodamente seduto al tuo tavolo."
                     </blockquote>
 

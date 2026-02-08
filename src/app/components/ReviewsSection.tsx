@@ -84,7 +84,7 @@ export function ReviewsSection() {
     return (
         <section className='py-24 bg-[#0a2e24] relative overflow-hidden' id="reviews">
             <div className='max-w-6xl mx-auto px-4 relative z-10'>
-                <h2 className='text-5xl text-white text-center mb-16 font-serif'>I miei clienti</h2>
+                <h2 className='text-5xl text-white text-center mb-16'>I miei clienti</h2>
 
                 <div className="grid md:grid-cols-2 gap-12">
                     {/* Reviews List */}
