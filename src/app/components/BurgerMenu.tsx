@@ -21,7 +21,7 @@ export function BurgerMenu() {
         { label: "Chi sono", href: "#info" },
         { label: "Proposte", href: "#proposals" },
         { label: "Menu", href: "#menu" },
-        { label: "Recensioni", href: "#info" },
+        { label: "Recensioni", href: "#reviews" },
         { label: "Contatti", href: "#contact" },
     ];
 
