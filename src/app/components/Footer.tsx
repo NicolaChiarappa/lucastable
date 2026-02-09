@@ -7,7 +7,7 @@ export function Footer() {
 
                 {/* Contatti */}
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-serif text-[#c5a059]">Contatti</h3>
+                    <h3 className="text-2xl   text-[#c5a059]">Contatti</h3>
                     <div className="space-y-4">
                         <a href="mailto:lucastablee@gmail.com" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                             <Mail className="w-5 h-5" />
@@ -22,7 +22,7 @@ export function Footer() {
 
                 {/* Mappa del Sito */}
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-serif text-[#c5a059]">Esplora</h3>
+                    <h3 className="text-2xl   text-[#c5a059]">Esplora</h3>
                     <ul className="space-y-3">
                         <li><a href="#info" className="text-gray-300 hover:text-white transition-colors">Chi sono</a></li>
                         <li><a href="#proposals" className="text-gray-300 hover:text-white transition-colors">Proposte</a></li>
@@ -34,7 +34,7 @@ export function Footer() {
 
                 {/* Social */}
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-serif text-[#c5a059]">Social</h3>
+                    <h3 className="text-2xl   text-[#c5a059]">Social</h3>
                     <div className="flex gap-4">
                         <a
                             href="https://www.instagram.com/lucas.tables?igsh=MTVrYnFzZnlvbDV5MQ%3D%3D&utm_source=qr"
