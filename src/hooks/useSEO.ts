@@ -36,6 +36,7 @@ export function useSEO() {
         updateOGMeta('og:description', seoData.og.description);
         updateOGMeta('og:type', seoData.og.type);
         updateOGMeta('og:locale', seoData.og.locale);
+        updateOGMeta('og:image', seoData.og.image);
 
     }, []);
 }

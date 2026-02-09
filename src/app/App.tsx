@@ -9,6 +9,7 @@ import { Logo } from "./components/Logo";
 
 import { ReviewsSection } from "./components/ReviewsSection";
 import { AvailabilityBadge } from "./components/AvailabilityBadge";
+import { Footer } from "./components/Footer";
 
 import { useSEO } from "../hooks/useSEO";
 
@@ -27,6 +28,7 @@ export default function App() {
       <MenuSection />
       <ReviewsSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 }

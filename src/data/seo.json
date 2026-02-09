@@ -7,6 +7,7 @@
         "title": "Lucas Table - Private Chef | Alta Cucina a Domicilio",
         "description": "L'eccellenza dell'alta ristorazione nel comfort della tua casa. Scopri i menu esclusivi di Lucas Table per le tue occasioni speciali in Svizzera.",
         "type": "website",
-        "locale": "it_CH"
+        "locale": "it_CH",
+        "image": "/lucas_logo_large.webp"
     }
 }
