@@ -29,7 +29,7 @@ export function AvailabilityBadge() {
                         <span className="text-2xl leading-none">🇨🇭</span>
                         <div className="flex flex-col">
 
-                            <span className="text-sm font-bold">Ticino (CH)</span>
+                            <span className="text-sm font-bold">Svizzera</span>
                         </div>
                     </div>
 
